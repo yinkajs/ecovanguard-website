@@ -1,0 +1,18 @@
+.admin-project__list {
+    --column: 1;
+    display: grid;
+    grid-template-columns: repeat(var(--column), 1fr);
+    gap: var(--heading-3);
+}
+
+@media screen and (min-width: 768px) {
+    .admin-project__list {
+        --column: 2;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .admin-project__list {
+        --column: 4
+    }
+}

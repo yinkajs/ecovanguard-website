@@ -1,0 +1,19 @@
+.project-card {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.project-card__details {
+    padding-inline: 20px;
+}
+
+.project-card .project-card__date {
+    color: #666666
+}
+
+.project-card__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

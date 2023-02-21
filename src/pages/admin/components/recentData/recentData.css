@@ -1,0 +1,18 @@
+.list {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  align-items: center;
+  gap: 10px;
+}
+.list__image div {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #aaa;
+}
+@media screen and (max-width: 400px) {
+  .list__image {
+    display: none;
+  }
+}
